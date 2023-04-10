@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/get_cristal.mp3-6cf57ef29f80c01945e9d163de69a10a.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds_fontes/get_cristal.mp3"
+dest_files=[ "res://.import/get_cristal.mp3-6cf57ef29f80c01945e9d163de69a10a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

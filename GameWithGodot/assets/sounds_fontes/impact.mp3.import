@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/impact.mp3-d51b2be724be424fd3aa60af293e3c97.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds_fontes/impact.mp3"
+dest_files=[ "res://.import/impact.mp3-d51b2be724be424fd3aa60af293e3c97.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

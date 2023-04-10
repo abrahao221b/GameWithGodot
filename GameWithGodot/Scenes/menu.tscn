@@ -1,0 +1,84 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://assets/assets_itens/tileset/tileset_fundo.png" type="Texture" id=1]
+[ext_resource path="res://assets/assets_itens/sprites/lua.png" type="Texture" id=2]
+[ext_resource path="res://assets/assets_itens/tileset/tileset_cenario.png" type="Texture" id=3]
+[ext_resource path="res://assets/fontes/fonte1.TTF" type="DynamicFontData" id=4]
+[ext_resource path="res://scripts/menu.gd" type="Script" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 4 )
+
+[node name="menu2D" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="parallaxBackgroundMenu" type="ParallaxBackground" parent="."]
+
+[node name="menuLayer1" type="ParallaxLayer" parent="parallaxBackgroundMenu"]
+position = Vector2( 0, -20 )
+
+[node name="Sprite" type="Sprite" parent="parallaxBackgroundMenu/menuLayer1"]
+modulate = Color( 0.188235, 0.160784, 1, 1 )
+texture = ExtResource( 1 )
+centered = false
+hframes = 3
+
+[node name="menuLayer2" type="ParallaxLayer" parent="parallaxBackgroundMenu"]
+position = Vector2( 0, -80 )
+
+[node name="Sprite" type="Sprite" parent="parallaxBackgroundMenu/menuLayer2"]
+modulate = Color( 0.121569, 0.705882, 0, 1 )
+texture = ExtResource( 1 )
+centered = false
+hframes = 3
+frame = 2
+
+[node name="menuLayer3" type="ParallaxLayer" parent="parallaxBackgroundMenu"]
+position = Vector2( 0, -100 )
+
+[node name="Sprite" type="Sprite" parent="parallaxBackgroundMenu/menuLayer3"]
+modulate = Color( 0, 0.686275, 0.266667, 1 )
+texture = ExtResource( 1 )
+centered = false
+hframes = 3
+frame = 1
+
+[node name="menuLayer4" type="ParallaxLayer" parent="parallaxBackgroundMenu"]
+position = Vector2( 0, -150 )
+
+[node name="Sprite" type="Sprite" parent="parallaxBackgroundMenu/menuLayer4"]
+position = Vector2( 60, 145 )
+z_index = -1
+texture = ExtResource( 2 )
+centered = false
+
+[node name="menuLayer5" type="ParallaxLayer" parent="parallaxBackgroundMenu"]
+position = Vector2( 0, -150 )
+
+[node name="Sprite" type="Sprite" parent="parallaxBackgroundMenu/menuLayer5"]
+position = Vector2( -143, 496 )
+scale = Vector2( 0.844866, 1 )
+z_index = 1
+texture = ExtResource( 3 )
+centered = false
+hframes = 2
+
+[node name="menuHud" type="CanvasLayer" parent="."]
+
+[node name="enter" type="Label" parent="menuHud"]
+margin_left = 91.0
+margin_top = 279.0
+margin_right = 511.0
+margin_bottom = 296.0
+rect_scale = Vector2( 2, 3 )
+custom_fonts/font = SubResource( 1 )
+text = "Press Enter or Space to Begin!!!!!"
+
+[node name="quit" type="Label" parent="menuHud"]
+margin_left = 264.0
+margin_top = 353.0
+margin_right = 507.0
+margin_bottom = 370.0
+rect_scale = Vector2( 2, 3 )
+custom_fonts/font = SubResource( 1 )
+text = "Or press Q to Quit!"

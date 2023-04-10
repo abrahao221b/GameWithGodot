@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/boss_fury.mp3-dc2bd33ba8a7ea704e43532f7e6d34e4.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds_fontes/boss_fury.mp3"
+dest_files=[ "res://.import/boss_fury.mp3-dc2bd33ba8a7ea704e43532f7e6d34e4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

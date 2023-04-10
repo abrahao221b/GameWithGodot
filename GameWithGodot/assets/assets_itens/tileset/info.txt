@@ -1,0 +1,3 @@
+Tamanho dos tilesets:
+cenario: 512x512
+fundo: 1536x1024

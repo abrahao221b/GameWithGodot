@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/you_lose.mp3-e940dc087eba41c0b5b49337b8e20be3.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds_fontes/you_lose.mp3"
+dest_files=[ "res://.import/you_lose.mp3-e940dc087eba41c0b5b49337b8e20be3.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
